@@ -1,0 +1,70 @@
+body {
+  background-image: url("../img/floral.jpg");
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+#answerSection {
+  display: none;
+}
+
+#calculatorInput {
+  font-size: 20px;
+}
+
+.form-group {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+p {
+  border: 10px dotted black;
+  border-radius: 20%;
+  margin: 5%;
+  padding: 10px;
+  background-color: rgba(76, 175, 80, 0.8);
+}
+
+#left {
+  /* border: 10px dotted black;
+  border-radius: 20%; */
+  /* margin: 2%; */
+  padding: 10px;
+  background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
+}
+
+#right {
+  /* border: 10px dotted black;
+  border-radius: 20%; */
+  /* margin: 2%; */
+  padding: 10px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+#style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+button {
+
+}
+
+#middleSection {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px dotted black;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: rgba(27, 186, 0, 0.8);
+  text-align: center;
+  align-items: center;
+}

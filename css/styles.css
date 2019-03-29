@@ -11,6 +11,8 @@ h1 {
 
 #answerSection {
   display: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #calculatorInput {
@@ -20,28 +22,16 @@ h1 {
 .form-group {
   margin-left: 20%;
   margin-right: 20%;
+  font-size: 25px;
+  line-height: 60px;
 }
 
-/* p {
-  border: 10px dotted black;
-  border-radius: 20%;
-  margin: 5%;
-  padding: 10px;
-  background-color: rgba(76, 175, 80, 0.8);
-} */
-
 #left {
-  /* border: 10px dotted black;
-  border-radius: 20%; */
-  /* margin: 2%; */
   padding: 10px;
   background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0));
 }
 
 #right {
-  /* border: 10px dotted black;
-  border-radius: 20%; */
-  /* margin: 2%; */
   padding: 10px;
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
@@ -54,7 +44,12 @@ h1 {
 }
 
 button {
-
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: red;
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
 }
 
 #middleSection {

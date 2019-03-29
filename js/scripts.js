@@ -15,7 +15,10 @@ $(document).ready(function(){
         $("#answerSection").show();
         $("#answer").text("scalene!");
       }
-    }
+    } else {
+      $("#answerSection").show();
+      $("#answer").text("NOT a triangle!");
+    };
     event.preventDefault();
   });
 });
